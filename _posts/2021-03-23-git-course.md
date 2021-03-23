@@ -1,11 +1,9 @@
 ---
 layout: post
-title: Teaching Programming Using `git`
+title: Teaching Programming Using git
 published: true
 tags: git teaching python pytest
 ---
-
-# Teaching Programming Using `git`
 
 In 2021, I designed and taught an introductory course in `python` programming for linguists at the University of Innsbruck. I wanted to try out something different, so I decided to run the whole course over `git`, using `fork` and `pull request` as means to distribute and let students hand in exercises, and `actions` to grade them automatically.
 
