@@ -7,8 +7,8 @@ Title: Screenshot
 
 Ich gebe Ihnen hier eine Anleitung über das Aufnehmen eines Screenshots. Es folgt zwei Ziele:
 
-1. Aufnehmen eines Screenshots auf dem Notebook
-2. Speichern des aufgenommenen Screenshotes
+1. Aufnehmen eines Screenshots auf dem Notebook.
+2. Speichern des aufgenommenen Screenshotes.
 
 ## Aufgabenstellung
 
@@ -30,3 +30,7 @@ Somit sollte die Aufnahme erscheinen und man kann **ctrl + S** drècken oder ein
 
 Nun kann man den gewohlten Ordner anwählen wie beim Beispiel unten und es dort mit dem gewählten Namen speichern.
 ![Screenshot 2](https://i.imgur.com/5M3YdkE.png)
+
+## Reflexion und Verifikation
+
+Die Ziele wurden mit hilfe der Bilder sehr vereinfacht. Die Bilder nehmen gleichzeitig sehr viel Platz ein und lassen somit den Text nach wenig aussehen was nichts schlimmes heissen muss.
