@@ -14,7 +14,7 @@ Ich gebe Ihnen hier eine Anleitung über das Aufnehmen eines Screenshots. Es fol
 
 ## Benötigte Tasten
 
-Windows-Taste + Shift + Taste-S
+**Windows-Taste + Shift + Taste-S**
 
 [![Screenshot](https://www.keyanalyzer.com/wp-content/uploads/2019/11/Windows-key-shift-S.png)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 Drücken sie zuerst die *Windows-* und *Shifttaste* gleichzeitig und dann die *S-Taste* hierbei steht das **S** aussserdem auch noch für **Scrennshot**.
