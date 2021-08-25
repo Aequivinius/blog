@@ -18,3 +18,7 @@ my variable = Class.order()
 ## Mein kleiner Titel
 
 ### Noch kleinerer Titel
+
+
+![Bild einer Ente](https://user-images.githubusercontent.com/11438440/130750131-8c836cf0-4345-4c82-a88a-35ef5086a4b6.jpg)
+
