@@ -47,8 +47,3 @@ So habe ich das `SelectOneMenu` importiert und umgeändert.
 Diese Aufgabe war für mich ziemlich erfolgreich und ich hatte keine grossen Probleme. 
 Ich brauchte etwas lange bis ich die richtige Lösung fand und es tatsächlich funktionierte.
 Ein Verbesserungsvorschlag für mich wäre, nicht sofort aufzugeben auch wenn es mehrmals hintereinander nicht funktioniert, sondern weiter versuchen.
-
-
-![_config.yml]({{ site.baseurl }}/images/config.png)
-
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/vanwid11/vanwid11.github.io) on GitHub.
