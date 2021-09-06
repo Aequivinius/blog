@@ -1,3 +1,8 @@
+---
+layout: post
+title: Bilder in JSF
+---
+
 # Bilder Java JSF einbinden
 ## _Aufgabenstellung und Ziele_ ##
 
