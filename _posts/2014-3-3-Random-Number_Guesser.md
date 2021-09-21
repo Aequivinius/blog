@@ -1,4 +1,4 @@
- # Random number guesser Portfolio
+# Random number guesser Portfolio
 ## Aufgabenstellung
 Ich habe einen C# Programm gemacht, wo der Computer eine Geheimzahl zwischen 1 und 100 speichert und der Benutzer/in musst die Geheimzahl raten
 ##### Ziele
