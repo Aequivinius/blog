@@ -33,33 +33,7 @@ bool found = false;
                         Console.ForegroundColor = ConsoleColor.White;
                         Console.WriteLine($"It took you {attempts} attempts to find out the right number!");
                         found = true;
-                    }
-                    else
-                    {
-
-                        if (usernumber < rand_num)
-                        {
-                            Console.ForegroundColor = ConsoleColor.Red;
-                            Console.WriteLine("Your number is too small!");
-                            Console.ForegroundColor = ConsoleColor.White;
-                            attempts++;
-                        }
-                        else if (usernumber > rand_num)
-                        {
-                            Console.ForegroundColor = ConsoleColor.Red;
-                            Console.WriteLine("Your number is too big!");
-                            Console.ForegroundColor = ConsoleColor.White;
-                            attempts++;
-                        }
-                    }
-                }
-                else
-                {
-                    Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("An Error occured! Make sure to type in a number!");
-                    Console.ForegroundColor = ConsoleColor.White;
-                    attempts++;
-                }
+            }
  ```
 
 
