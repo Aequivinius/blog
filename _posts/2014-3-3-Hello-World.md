@@ -4,15 +4,63 @@ title: Number Riddle
 ---
 
 ### **Aufgabenstellung**
-Ich habe mithilfe der Programmiersprache "C#" ein kleines Progamm geschrieben wo man das spiel "Number Riddle" spielen kann.
-In dem spiel geht es darum das der Computer eine Zahl zwischen 1 und 100 nimmt und der Nutzer muss diese Zahl herausfinden.
+Ich habe mithilfe der Programmiersprache "C#" ein kleines Progamm geschrieben, wo man das spiel "Number Riddle" spielen kann.
+In dem spiel geht es darum, dass der Computer eine Zahl zwischen 1 und 100 nimmt und der Nutzer muss diese Zahl herausfinden.
+
+
 ### **Ziele**
-- IPERKA besser kennenlernen
-- Nutzern den Aufbau meines Programms erklären
-- Meine Skills in der Informatik verbessern
+- Meine Skills mit While-Schleifen verbessern
+
+
 ### **Was habe ich jetzt genau gemacht?**
-Zuerst habe ich dafür gesorgt das ein Willkommens text auf der Konsole zu sehen ist indem ich den command `Console.WriteLine("Text");`
-benutzt habe. In den Klammern zwischen den "" kommt dann der entprechende Text der auf der Konsole angezeigt werden soll. 
+Damit bestimmte Funktionen des Programmes funktionieren müssen sie in einer Schleife geschrieben werden, dh. der inhalt der schleife wird dei ganze zeit wiederholt oder bis im code eine Regel gesetzt wurde wann das Programm die Schleife verlassen soll. Hier ein Beispiel von meinem Code:
+
+```csharp
+bool found = false;
+
+            while (found == false)
+            {
+                string userinput = Console.ReadLine();
+                attempts++;
+                if (int.TryParse(userinput, out int test))
+                {
+                    int usernumber = int.Parse(userinput);
+                    if (usernumber == rand_num)
+                    {
+                        Console.Clear();
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        Console.WriteLine($"{rand_num} was the right number! GG!");
+                        Console.ForegroundColor = ConsoleColor.White;
+                        Console.WriteLine($"It took you {attempts} attempts to find out the right number!");
+                        found = true;
+                    }
+                    else
+                    {
+
+                        if (usernumber < rand_num)
+                        {
+                            Console.ForegroundColor = ConsoleColor.Red;
+                            Console.WriteLine("Your number is too small!");
+                            Console.ForegroundColor = ConsoleColor.White;
+                            attempts++;
+                        }
+                        else if (usernumber > rand_num)
+                        {
+                            Console.ForegroundColor = ConsoleColor.Red;
+                            Console.WriteLine("Your number is too big!");
+                            Console.ForegroundColor = ConsoleColor.White;
+                            attempts++;
+                        }
+                    }
+                }
+                else
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("An Error occured! Make sure to type in a number!");
+                    Console.ForegroundColor = ConsoleColor.White;
+                    attempts++;
+                }
+ ```
 
 
-### **Reflektion & Verifikation
+### **Reflektion & Verifikation**
