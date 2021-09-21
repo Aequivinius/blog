@@ -1,3 +1,8 @@
+---
+layout: post
+title: Random_Number_Game
+---
+
 # Wie nehme ich einfach einen Screenshot auf?
 
 I'll give you a little instructions. Es folgt zwei Ziele:
