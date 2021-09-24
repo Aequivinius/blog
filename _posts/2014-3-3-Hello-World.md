@@ -13,7 +13,7 @@ In dem spiel geht es darum, dass der Computer eine Zahl zwischen 1 und 100 nimmt
 
 
 ### **Was habe ich jetzt genau gemacht?**
-Damit bestimmte Funktionen des Programmes funktionieren müssen sie in einer Schleife geschrieben werden, d. h. der Inhalt der Schleife wird die ganze Zeit wiederholt oder bis im code eine Regel gesetzt wurde, wann das Programm die Schleife verlassen soll. Hier ein Beispiel von meinem Code:
+Damit bestimmte Funktionen des Programmes funktionieren müssen, müssen sie in einer Schleife geschrieben werden, d. h. der Inhalt der Schleife wird die ganze Zeit wiederholt oder bis im code eine Regel gesetzt wurde, wann das Programm die Schleife verlassen soll. Hier ein Beispiel von meinem Code:
 
 ```csharp
 bool found = false;
