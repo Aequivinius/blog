@@ -11,11 +11,14 @@ Ich habe einen C# Programm gemacht, wo der Computer eine Geheimzahl zwischen 1 u
 ![bild](https://snipboard.io/nVrLOl.jpg)
 ### Inhalt 2
 ##### Youtube Link
-(https://www.youtube.com/watch?v=iriSuKcU61Y)
+
+[![description](http://img.youtube.com/vi/iriSuKcU61Y/0.jpg)](http://www.youtube.com/watch?v=iriSuKcU61Y)
+
 ### Inhalt 3
 ##### Code
 
-    {
+```csharp
+{
         static void Main(string[] args)
         {
             Random r = new Random();
@@ -112,7 +115,7 @@ Ich habe einen C# Programm gemacht, wo der Computer eine Geheimzahl zwischen 1 u
                 
         }
     }
-
+```
 
 ## Reflektion und Verifikation
 #### Was sind gut gelaufen?
