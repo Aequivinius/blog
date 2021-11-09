@@ -34,7 +34,7 @@ And for all of these the while loop is essential for the programm to even work.
 
 **The whole code that I've written is right under here for ilustration:**
 Try to understand what it does and if you don't you can go ahead and read further into this.
-```
+```csharp
 bool whileCont = true;
 
 while (whileCont == true)
