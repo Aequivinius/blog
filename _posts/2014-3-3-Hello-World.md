@@ -18,22 +18,24 @@ Damit bestimmte Funktionen des Programmes funktionieren müssen, müssen sie in 
 ```csharp
 bool found = false;
 
-            while (found == false)
-            {
-                string userinput = Console.ReadLine();
-                attempts++;
-                if (int.TryParse(userinput, out int test))
-                {
-                    int usernumber = int.Parse(userinput);
-                    if (usernumber == rand_num)
-                    {
-                        Console.Clear();
-                        Console.ForegroundColor = ConsoleColor.Green;
-                        Console.WriteLine($"{rand_num} was the right number! GG!");
-                        Console.ForegroundColor = ConsoleColor.White;
-                        Console.WriteLine($"It took you {attempts} attempts to find out the right number!");
-                        found = true;
+while (found == false)
+{
+    string userinput = Console.ReadLine();
+    attempts++;
+    if (int.TryParse(userinput, out int test))
+    {
+        int usernumber = int.Parse(userinput);
+        if (usernumber == rand_num)
+        {
+            Console.Clear();
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine($"{rand_num} was the right number! GG!");
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine($"It took you {attempts} attempts to find out the right number!");
+            found = true;
             }
+      }
+}
           
  ```
 Es wurde zuerst ein `bool` mit dem Namen _found_ erstellt. Der Wert wurde auf `false` gesetzt.
