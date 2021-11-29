@@ -57,7 +57,7 @@ In dieser Aufgabe mussten wir einen vorgeschriebenen Eintrag kreiern.
 2. Vorgaben:
 Benutzername : Josef
 Passwort: fesoj
----
+
 # Produkt #
 ```
 <?xml version="1.0" encoding="UTF-8"?>
