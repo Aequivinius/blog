@@ -60,20 +60,12 @@ Passwort: fesoj
 # Produkt #
 ```
 <?xml version="1.0" encoding="UTF-8"?>
-
 <users>
-
-
 <user id="2">
-
 <username>josef</username>
-
 <password>fesoj </password>
-
 <isadmin>1</isadmin>
-
 </user>
-
 </users>
 ```
 # Verifizierung #
