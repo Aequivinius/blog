@@ -47,8 +47,8 @@ So habe ich das `SelectOneMenu` importiert und umgeändert.
 Diese Aufgabe war für mich ziemlich erfolgreich und ich hatte keine grossen Probleme. 
 Ich brauchte etwas lange bis ich die richtige Lösung fand und es tatsächlich funktionierte.
 Ein Verbesserungsvorschlag für mich wäre, nicht sofort aufzugeben auch wenn es mehrmals hintereinander nicht funktioniert, sondern weiter versuchen.
----
 
+---
 # Aufgabenstellung und Ziele #
 Bei dieser Aufgabe ging es um XML-Injections (LA_183_1012)
 In dieser Aufgabe mussten wir einen vorgeschriebenen Eintrag kreiern.
