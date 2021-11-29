@@ -58,15 +58,31 @@ In dieser Aufgabe mussten wir einen vorgeschriebenen Eintrag kreiern.
 Benutzername : Josef
 Passwort: fesoj
 # Produkt #
+Das musste zuerst importiert werden:
 ```
-<?xml version="1.0" encoding="UTF-8"?>
-<users>
-<user id="2">
-<username>josef</username>
-<password>fesoj </password>
-<isadmin>1</isadmin>
-</user>
-</users>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+       xmlns:f = "http://java.sun.com/jsf/core" >
+```
+So habe ich das `RadioButton` importiert und umgeändert.      
+```
+<h:form id="eyecolor-form">
+      <h:selectOneRadio value = "#{userData.data}"> 
+   <f:selectItem itemValue = "Green" itemLabel = "Green" /> 
+   <f:selectItem itemValue = "Blue" itemLabel = "Blue" />
+</h:selectOneRadio>    
+</h:form>
+```
+So habe ich das `SelectOneMenu` importiert und umgeändert.  
+```
+<h:form id="skincolor-form">
+      <h:outputLabel for="skinColor"></h:outputLabel>
+         <h:selectOneMenu value = "#{CharacterBean.eyecolor}"> 
+   <f:selectItem itemValue = "light" itemLabel = "Light" /> 
+   <f:selectItem itemValue = "dark" itemLabel = "Dark" /> 
+</h:selectOneMenu> 
+            <h:commandButton id="submit-button" value="Submit" action="eyecolorselector.xhtml"></h:commandButton>
+</h:form>
 ```
 # Verifizierung #
 Eintrag wurde nach Vorgaben richtig erstellt.
