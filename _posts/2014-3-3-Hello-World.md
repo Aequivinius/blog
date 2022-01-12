@@ -47,29 +47,3 @@ So habe ich das `SelectOneMenu` importiert und umgeändert.
 Diese Aufgabe war für mich ziemlich erfolgreich und ich hatte keine grossen Probleme. 
 Ich brauchte etwas lange bis ich die richtige Lösung fand und es tatsächlich funktionierte.
 Ein Verbesserungsvorschlag für mich wäre, nicht sofort aufzugeben auch wenn es mehrmals hintereinander nicht funktioniert, sondern weiter versuchen.
-
----
-# Aufgabenstellung und Ziele #
-Bei dieser Aufgabe ging es um XML-Injections (LA_183_1012)
-In dieser Aufgabe mussten wir einen vorgeschriebenen Eintrag kreiern.
-# Ziele #
-1. Eintrag nach Vorgaben erstellen.
-2. Vorgaben:
-Benutzername : Josef
-Passwort: fesoj
-
-# Produkt #
-```
-<?xml version="1.0" encoding="UTF-8"?>
-<users>
-<user id="2">
-<username>josef</username>
-<password>fesoj </password>
-<isadmin>1</isadmin>
-</user>
-</users>
-```
-# Verifizierung #
-Eintrag wurde nach Vorgaben richtig erstellt.
-# Reflexion #
-Dieser Auftrag war relativ einfach und ich hatte keine grossen Schwierigkeiten damit.
